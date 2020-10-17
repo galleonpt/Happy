@@ -53,7 +53,7 @@ export default {
       instructions,
       about,
       opening_hours,
-      open_on_weekends,
+      open_on_weekends:JSON.parse(open_on_weekends),
       images,
     };
 
